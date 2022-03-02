@@ -1,4 +1,7 @@
+import {useState, useContext} from 'react';
+
 function RatingSelect({ select, rating }) {
+  
   const handleChange = ({ target: { value } }) => {
     select(+value);
   };
