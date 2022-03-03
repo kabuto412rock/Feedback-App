@@ -1,4 +1,3 @@
-import {useState, useContext} from 'react';
 
 function RatingSelect({ select, rating }) {
   
